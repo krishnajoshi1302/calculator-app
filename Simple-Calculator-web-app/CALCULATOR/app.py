@@ -21,7 +21,7 @@ def calculator():
             if num2 != 0:
                 result = num1 / num2
             else:
-                result = "Cannot divide by zero"
+                result = "Cannot divide by 0"
 
     return render_template('calculator.html', result=result)
 
